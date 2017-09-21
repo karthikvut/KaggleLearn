@@ -58,7 +58,7 @@ from sklearn.metrics import confusion_matrix, precision_recall_curve, auc, roc_a
 
 def print_KFold_Scores(X_train_data,Y_train_data):
     fold = KFold(len(Y_train_data),5,shuffle=False)
-
+    print(fold)
     c_param_range = [0.01,0.1,1,10,100]
     results_table = pd.DataFrame(index=range(len(c_param_range),2),columns=['C_parameter','Mean recall score'])
     results_table['C_parameter'] = c_param_range

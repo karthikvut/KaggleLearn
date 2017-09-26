@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/KaggleLearn.iml" filepath="$PROJECT_DIR$/.idea/KaggleLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/creditcard/creditcard.iml" filepath="$PROJECT_DIR$/creditcard/creditcard.iml" />
     </modules>
   </component>
 </project>
